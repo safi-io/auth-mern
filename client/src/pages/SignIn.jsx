@@ -6,6 +6,7 @@ import {
   signInSuccess,
 } from "../redux/user/userSlice.js";
 import { useDispatch, useSelector } from "react-redux";
+import OAuth from "../components/OAuth.jsx";
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
@@ -65,6 +66,7 @@ export default function SignIn() {
         >
           {loading ? "Loading..." : "Sign In"}
         </button>
+        <OAuth/>
       </form>
       <p className="text-red-700 mt-4">
         {error ? error || "Something went wrong" : ""}
