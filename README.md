@@ -13,7 +13,7 @@ This is a full-stack authentication template built with the MERN stack (MongoDB,
 - **Responsive UI**: Built with React.js and styled with your preferred CSS framework.
 - **Environment Configuration**: Easily manage environment variables.
 
-## Technologies Used
+## Technologies Used in this Project
 
 ### Front-end
 - **React.js**: A JavaScript library for building user interfaces.
